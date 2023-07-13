@@ -1,4 +1,4 @@
 #pragma once
 #include <stdint.h>
 
-uint32_t my_ntohl(uint32_t n);
+uint32_t ntohl(uint32_t n);

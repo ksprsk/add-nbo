@@ -22,7 +22,7 @@ uint32_t f2u32(char *filename)
 	uint32_t buf;
 	fread(&buf,4,1,fp);
 	fclose(fp);
-	return my_ntohl(buf);
+	return ntohl(buf);
 }
 
 int main(int argc,char **argv) {
